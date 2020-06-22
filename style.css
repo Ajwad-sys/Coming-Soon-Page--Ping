@@ -1,0 +1,189 @@
+html,
+body {
+  font-size: 20px;
+  padding: 0;
+  margin: auto;
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+}
+
+.newClass {
+  display: none;
+  color: yellow;
+}
+
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 0;
+  max-width: 375px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-weight: 300;
+  font-size: larger;
+  margin: auto;
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+
+p span {
+  color: hsl(209, 33%, 12%);
+  font-weight: 600;
+}
+
+form {
+  display: block;
+  margin-top: 20px;
+}
+
+i {
+  color: hsl(223, 87%, 63%);
+}
+
+input {
+  border-radius: 25px;
+  width: 85%;
+  margin: auto;
+  height: 40px;
+  border: 0.1px solid hsl(0, 0%, 59%);
+  color: hsl(0, 0%, 59%);
+  text-indent: 26px;
+  outline: none;
+}
+
+h6 {
+  font-weight: 300;
+  margin: auto;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+button {
+  margin-top: 15px;
+  height: 45px;
+  width: 89%;
+  border-radius: 25px;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0px 10px 29px lightgrey;
+  outline: none;
+}
+button:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.stats {
+  margin: auto;
+  padding-top: 80px;
+}
+
+i {
+  display: inline-block;
+  margin-right: 9px;
+  margin-left: 9px;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  padding: 8px;
+}
+
+p1 {
+  color: hsl(0, 0%, 59%);
+  font-size: small;
+  text-align: center;
+}
+
+.bottom {
+  margin-top: 40px;
+  margin-bottom: auto;
+}
+
+.copyright {
+  margin-top: 25px;
+}
+
+.fa-facebook-f {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+i:hover {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  cursor: pointer;
+}
+@media screen and (min-width: 750px) {
+  .flex-wrapper {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0;
+    max-width: 1440px;
+    margin: auto;
+  }
+
+  p {
+    font-size: 40px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+
+  input {
+    width: 30vw;
+    height: 4vw;
+    width: 30vw;
+    height: 4vw;
+    margin-right: 20px;
+    margin-left: 270px;
+    font-size: medium;
+  }
+
+  button {
+    width: 20vw;
+    height: 4vw;
+    margin-top: 0;
+    font-size: medium;
+  }
+
+  img {
+    max-width: 60%;
+    max-height: auto;
+  }
+  #error-message {
+    padding-left: 60px;
+    padding-top: 20px;
+    display: block;
+    font-size: medium;
+  }
+}
+
+.spanning {
+  display: flex;
+  flex-direction: column;
+}
+
+#error-message {
+  display: inline-block;
+  font-size: 12px;
+  padding-top: 10px;
+  color: hsl(354, 100%, 66%);
+  font-weight: 300;
+  font-style: italic;
+}
